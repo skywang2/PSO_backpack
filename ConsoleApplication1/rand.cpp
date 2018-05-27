@@ -2,25 +2,25 @@
 #include<stdlib.h>
 #include<time.h>
 
+//float rand_float2() {
+//	float number;
+//
+//	number = rand() / (RAND_MAX + 1.0);
+//	return number;	// Ëæ»úÊı0,1
+//}
+//
 //int main()
 //{
-//	int a[2][2] = { { 1,2 },{ 3,4 } };
-//	int i = 0, j = 0;
-//	float number;
-//	for (i; i<2; i++)
-//	{
-//		for (j = 0; j<2; j++)
-//		{
-//			printf("%d \n", a[i][j]);
-//		}
-//	}
-//
+//	int i = 0;
+//	int j = 0;
 //	srand((unsigned)time(NULL));
-//	for (i = 0; i<10; i++)
-//	{
-//		number = rand() % 1;
-//		printf("%f ", number);
+//	for (i; i < 20; i++) {
+//		float j = rand_float2();
+//		printf("%f \n", j);
 //	}
+//	
 //
-//	printf("\nend");
+//	getchar();
+//	return 0;
 //}
+
